@@ -89,8 +89,8 @@
     <circle cx="122" cy="90" r="80.5" stroke="white" stroke-opacity="0.2"/>
   </g>
   <g class="animate-circle-2" filter="url(#filter3_b_3_4)">
-  <circle cx="173" cy="195" r="16" fill="white" fill-opacity="0.05"/>
-  <circle cx="173" cy="195" r="15.5" stroke="white" stroke-opacity="0.2"/>
+    <circle cx="173" cy="195" r="16" fill="white" fill-opacity="0.05" class="animate-circle-2"/>
+    <circle cx="173" cy="195" r="15.5" stroke="white" stroke-opacity="0.2"/>
   </g>
     
   <defs>
@@ -116,13 +116,13 @@
     </filter>
     <filter id="filter2_b_3_4" x="37" y="5" width="170" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="5"/>
       <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
     </filter>
     <filter id="filter3_b_3_4" x="153" y="175" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="5"/>
       <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
     </filter>
