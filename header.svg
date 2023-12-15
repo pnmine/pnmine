@@ -5,10 +5,7 @@
       transform-box: fill-box;
     }
     .animate-fade-in {
-      animation: fade-in 0.64s cubic-bezier(0, 0, 0.2, 1) forwards;
-    }
-    .shine{
-      animation: shine 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+      animation: fade-in 2s cubic-bezier(0, 0, 0.2, 1) forwards;
     }
     .animate-ping {
       animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
