@@ -82,12 +82,12 @@
       fill="white" />
   </g>
   <g class="animate-circle" filter="url(#filter2_b_3_4)">
-    <circle cx="122" cy="90" r="81" fill="white" fill-opacity="0.05" />
+    <circle cx="122" cy="90" r="81" fill="white" fill-opacity="0.05" class="animate-circle" />
     <circle cx="122" cy="90" r="80.5" stroke="white" stroke-opacity="0.2"/>
   </g>
   
   <defs>
-    <filter id="filter0_d_3_4" x="272.92" y="23.768" width="349.898" height="93.728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter class="animate-circle" id="filter0_d_3_4" x="272.92" y="23.768" width="349.898" height="93.728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
       <feOffset dy="4"/>
@@ -97,7 +97,7 @@
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_4" result="shape"/>
     </filter>
-    <filter id="filter1_d_3_4" x="344.176" y="127.728" width="205.357" height="42.272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter class="animate-circle" id="filter1_d_3_4" x="344.176" y="127.728" width="205.357" height="42.272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
       <feOffset dy="4"/>
