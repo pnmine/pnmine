@@ -22,11 +22,19 @@
     }
     @keyframes trans {
       0% {
-        transform: translateX(0) translateY(0) scale(1);
+        transform: translateX(0) translateY(0);
+      }
+    
+      33% {
+        transform: translateX(40vw) translateY(10vw) scale(1.1);
+      }
+    
+      67% {
+        transform: translateX(40vw) translateY(10vw) scale(0.9);
       }
     
       100% {
-        transform: translateX(80vw * sin(7.85 * time)) translateY(20vw * sin(7.85 * time)) scale(1.2);
+        transform: translateX(80vw) translateY(20vw);
       }
     }
     
