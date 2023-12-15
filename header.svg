@@ -21,14 +21,15 @@
       animation-delay: 1s;
     }
     @keyframes trans {
-    0% {
-        transform: translateX(0) translateY(0);
+      0% {
+        transform: translateX(0) translateY(0) scale(1);
+      }
+    
+      100% {
+        transform: translateX(80vw * sin(7.85 * time)) translateY(20vw * sin(7.85 * time)) scale(1.2);
+      }
     }
-
-    100% {
-        transform: translateX(80vw) translateY(20vw);
-    }
-    }
+    
     @keyframes trans2 {
     0% {
         transform: translateX(80vw) translateY(40);
