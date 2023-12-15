@@ -11,7 +11,7 @@
       animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
     }
     .animate-circle{
-      animation: trans 10s cubic-bezier(0.75, 0, 0.25, 1) alternative infinite;
+      animation: trans 10s cubic-bezier(0.75, 0, 0.25, 1) alternate infinite;
     }
     .animate-circle-2{
       animation: trans2 5s cubic-bezier(0.5, 0.2, 0.2, 0.5) forwards;
