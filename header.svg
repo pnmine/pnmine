@@ -85,37 +85,39 @@
     <circle cx="122" cy="90" r="81" fill="white" fill-opacity="0.05"/>
     <circle cx="122" cy="90" r="80.5" stroke="white" stroke-opacity="0.2"/>
   </g>
-  <g class="animate-circle" filter="url(#filter2_b_3_4)">
-    <circle cx="12" cy="10" r="81" fill="white" fill-opacity="0.05"/>
-    <circle cx="12" cy="10" r="80.5" stroke="white" stroke-opacity="0.2"/>
+  <g filter="url(#filter3_b_3_4)">
+  <circle cx="173" cy="195" r="16" fill="white" fill-opacity="0.05"/>
+  <circle cx="173" cy="195" r="15.5" stroke="white" stroke-opacity="0.2"/>
   </g>
-  <g class="animate-circle" filter="url(#filter2_b_3_4)">
-    <circle cx="2" cy="1" r="81" fill="white" fill-opacity="0.05"/>
-    <circle cx="2" cy="1" r="80.5" stroke="white" stroke-opacity="0.2"/>
-  </g>
-  
+    
   <defs>
-    <filter class="animate-circle" id="filter0_d_3_4" x="272.92" y="23.768" width="349.898" height="93.728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="filter0_d_3_4" x="272.92" y="23.768" width="349.898" height="93.728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
       <feOffset dy="4"/>
       <feGaussianBlur stdDeviation="5"/>
       <feComposite in2="hardAlpha" operator="out"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_4" result="shape"/>
     </filter>
-    <filter class="animate-circle" id="filter1_d_3_4" x="344.176" y="127.728" width="205.357" height="42.272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="filter1_d_3_4" x="344.176" y="127.728" width="205.357" height="42.272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
       <feOffset dy="4"/>
       <feGaussianBlur stdDeviation="5"/>
       <feComposite in2="hardAlpha" operator="out"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_4" result="shape"/>
     </filter>
-    <filter class="animate-circle" id="filter2_b_3_4" x="37" y="5" width="170" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="filter2_b_3_4" x="37" y="5" width="170" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
+    </filter>
+    <filter id="filter3_b_3_4" x="153" y="175" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
       <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
