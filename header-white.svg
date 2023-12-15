@@ -30,11 +30,11 @@
       }
     
       67% {
-        transform: translateX(40vw) translateY(10vw) scale(0.9);
+        transform: translateX(70vw) translateY(10vw) scale(0.9);
       }
     
       100% {
-        transform: translateX(80vw) translateY(20vw);
+        transform: translateX(110vw) translateY(20vw);
       }
     }
     
