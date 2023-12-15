@@ -88,7 +88,7 @@
     <circle cx="122" cy="90" r="81" fill="white" fill-opacity="0.05"/>
     <circle cx="122" cy="90" r="80.5" stroke="white" stroke-opacity="0.2"/>
   </g>
-  <g class="animate-circle" filter="url(#filter3_b_3_4)">
+  <g class="animate-circle-2" filter="url(#filter3_b_3_4)">
     <circle cx="173" cy="195" r="16" fill="white" fill-opacity="0.05" class="animate-circle-2"/>
     <circle cx="173" cy="195" r="15.5" stroke="white" stroke-opacity="0.2"/>
   </g>
