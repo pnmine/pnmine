@@ -17,7 +17,7 @@
       animation: trans 5s cubic-bezier(0.5, 0.2, 0.2, 0.5) alternate infinite;
     }
     .animate-circle-2{
-      animation: trans 5s cubic-bezier(0, 0, 0.2, 1) alternate infinite;
+      animation: trans2 5s cubic-bezier(0, 0, 0.2, 1) alternate infinite;
     }
     @keyframes trans {
     0% {
@@ -27,7 +27,16 @@
     100% {
         transform: translateX(80vw) translateY(20vw);
     }
-}
+    }
+    @keyframes trans2 {
+    0% {
+        transform: translateX(80vw) translateY(40);
+    }
+
+    100% {
+        transform: translateX(0) translateY(10vw);
+    }
+    }
 
     .line{
       border: 1px solid red;
