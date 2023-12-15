@@ -11,7 +11,7 @@
       animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
     }
     .animate-circle{
-      animation: 1s trans 5s cubic-bezier(0.75, 0, 0.25, 1) infinite;
+      animation: trans 10s cubic-bezier(0.75, 0, 0.25, 1) infinite;
     }
     .animate-circle-2{
       animation: trans2 5s cubic-bezier(0.5, 0.2, 0.2, 0.5) forwards;
@@ -22,8 +22,12 @@
     }
     @keyframes trans {
       0% {
+        opacity: 0;
         transform: translateX(0) translateY(0);
       }
+    10%{
+      opacity: 1;
+    }
     
       33% {
         transform: translateX(40vw) translateY(10vw) scale(1.1);
