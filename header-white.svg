@@ -34,7 +34,7 @@
       }
     
       100% {
-        transform: translateX(110vw) translateY(20vw);
+        transform: translateX(110vw) translateY(50vw);
       }
     }
     
