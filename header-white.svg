@@ -41,7 +41,7 @@
     @keyframes trans2 {
     0% {
         opacity: 1;
-        transform: translateX(0) translateY(-50px);
+        transform: translateX(0) translateY(-100px);
     }
 
     100% {
