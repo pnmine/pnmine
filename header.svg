@@ -18,11 +18,11 @@
     }
     @keyframes trans {
     0% {
-        transform: translateX(0) rotate(0deg);
+        transform: translateX(0) translateY(0);
     }
 
     100% {
-        transform: translateX(80vw) rotate(20deg);
+        transform: translateX(80vw) translateY(20vw);
     }
 }
 
@@ -84,8 +84,14 @@
   <g class="animate-circle" filter="url(#filter2_b_3_4)">
     <circle cx="122" cy="90" r="81" fill="white" fill-opacity="0.05"/>
     <circle cx="122" cy="90" r="80.5" stroke="white" stroke-opacity="0.2"/>
-    <circle cx="10" cy="90" r="81" fill="white" fill-opacity="0.05"/>
-    <circle cx="10" cy="90" r="80.5" stroke="white" stroke-opacity="0.2"/>
+  </g>
+  <g class="animate-circle" filter="url(#filter2_b_3_4)">
+    <circle cx="12" cy="10" r="81" fill="white" fill-opacity="0.05"/>
+    <circle cx="12" cy="10" r="80.5" stroke="white" stroke-opacity="0.2"/>
+  </g>
+  <g class="animate-circle" filter="url(#filter2_b_3_4)">
+    <circle cx="2" cy="1" r="81" fill="white" fill-opacity="0.05"/>
+    <circle cx="2" cy="1" r="80.5" stroke="white" stroke-opacity="0.2"/>
   </g>
   
   <defs>
