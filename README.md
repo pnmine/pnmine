@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./header.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./header.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./header-white.svg">
   <img alt="Header" src="./header.svg">
 </picture>
 <!--
