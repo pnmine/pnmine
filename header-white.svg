@@ -41,12 +41,12 @@
     @keyframes trans2 {
     0% {
         opacity: 1;
-        transform: translateX(0) translateY(0px);
+        transform: translateX(0) translateY(-50px);
     }
 
     100% {
         opacity: 0;
-        transform: translateX(0) translateY(40px);
+        transform: translateX(0) translateY(100px);
       }
     }
 
