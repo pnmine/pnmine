@@ -14,7 +14,7 @@
       animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
     }
     .animate-circle{
-      animation: trans 10s cubic-bezier(0.5, 0.2, 0.2, 0.5) alternate infinite;
+      animation: trans 5s cubic-bezier(0.5, 0.2, 0.2, 0.5) alternate infinite;
     }
     @keyframes trans {
     0% {
@@ -107,7 +107,7 @@
       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_4" result="shape"/>
     </filter>
-    <filter id="filter2_b_3_4" x="37" y="5" width="170" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter class="animate-circle" id="filter2_b_3_4" x="37" y="5" width="170" height="170" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
       <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
