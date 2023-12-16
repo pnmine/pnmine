@@ -101,13 +101,10 @@
       transform: translateX(830px) translateY(5px);
     }
     @keyframes ping {
-      0%{
-        transform: translateX(20px) translateY(1000px);
-      }
+      75%,
       100% {
-        transform: translateX(0px) translateY(10px);
         transform: scale(2);
-        opacity: 0.8;
+        opacity: 0;
       }
     }
     @keyframes shine {
