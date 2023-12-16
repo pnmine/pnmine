@@ -43,7 +43,7 @@
     }
     .float5{
       opacity: 0;
-      animation-delay: 25ms;
+      animation-delay: 20ms;
       animation: float 6s linear infinite;
     }
     
