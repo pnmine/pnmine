@@ -37,7 +37,7 @@
       }
     
       100% {
-        transform: translateX(800px) translateY(150px);
+        transform: translateX(700px) translateY(120px);
       }
     }
     
