@@ -98,7 +98,7 @@
       to{border-right-color: transparent;}
     }
     .star{
-      transform: translateX(500px) translateY(8px);
+      transform: translateX(830px) translateY(5px);
     }
     @keyframes ping {
       0%{
