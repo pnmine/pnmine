@@ -29,15 +29,15 @@
       }
     
       33% {
-        transform: translateX(40px) translateY(10px) scale(1.1);
+        transform: translateX(200px) translateY(50px) scale(1.1);
       }
     
       67% {
-        transform: translateX(70px) translateY(10px) scale(0.9);
+        transform: translateX(250px) translateY(50px) scale(0.9);
       }
     
       100% {
-        transform: translateX(120px) translateY(80px);
+        transform: translateX(500px) translateY(200px);
       }
     }
     
