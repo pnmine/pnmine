@@ -21,8 +21,9 @@
       animation-delay: 1s;
     }
     .float{
-      animation: float 10s cubic-bezier(0.75, 0, 0.25, 1) linear infinite;
+      animation: float 2s linear infinite;
     }
+    
     @keyframes trans {
       0% {
         transform: translateX(0) translateY(0) scale(0);
