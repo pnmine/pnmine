@@ -28,22 +28,22 @@
     }
     .float2{
       opacity: 0;
-      animation-delay: 1.2s;
+      animation-delay: 12ms;
       animation: float 2s linear infinite;
     }
     .float3{
       opacity: 0;
-      animation-delay: 1.5s;
+      animation-delay: 15ms;
       animation: float 2s linear infinite;
     }
     .float4{
       opacity: 0;
-      animation-delay: 1.7s;
+      animation-delay: 17ms;
       animation: float 2s linear infinite;
     }
     .float5{
       opacity: 0;
-      animation-delay: 1.9s;
+      animation-delay: 19ms;
       animation: float 2s linear infinite;
     }
     
