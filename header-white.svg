@@ -240,8 +240,8 @@
       <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
     </filter>
-    <filter id="filter9_d_3_4" x="832.193" y="5.19287" width="52.6143" height="52.6143" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood class="animate-ping" flood-opacity="0" result="BackgroundImageFix"/>
+    <filter class="animate-ping" id="filter9_d_3_4" x="832.193" y="5.19287" width="52.6143" height="52.6143" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
       <feOffset dx="2" dy="2"/>
       <feGaussianBlur stdDeviation="5"/>
