@@ -23,7 +23,7 @@
     }
     .float1{
       opacity: 0;
-      animation-delay: 1s;
+      animation-delay: 10ms;
       animation: float 2s linear infinite;
     }
     .float2{
@@ -38,13 +38,13 @@
     }
     .float4{
       opacity: 0;
-      animation-delay: 17ms;
-      animation: float 3s linear infinite;
+      animation-delay: 18ms;
+      animation: float 5s linear infinite;
     }
     .float5{
       opacity: 0;
-      animation-delay: 19ms;
-      animation: float 2s linear infinite;
+      animation-delay: 25ms;
+      animation: float 6s linear infinite;
     }
     
     @keyframes trans {
