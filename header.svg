@@ -41,7 +41,7 @@
       animation-delay: 1.7s;
       animation: float 2s linear infinite;
     }
-    .float2{
+    .float5{
       opacity: 0;
       animation-delay: 1.9s;
       animation: float 2s linear infinite;
