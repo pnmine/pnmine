@@ -101,7 +101,7 @@
     @keyframes ping {
       75%,
       100% {
-        transform: scale(2);
+        transform: translateX(830px) translateY(5px) scale(2);
         opacity: 0;
       }
     }
