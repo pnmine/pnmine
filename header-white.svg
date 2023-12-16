@@ -105,7 +105,6 @@
       0%{
         transform: translateX(20px) translateY(1000px);
       }
-      75%,
       100% {
         transform: translateX(20px) translateY(1000px);
         transform: scale(2);
