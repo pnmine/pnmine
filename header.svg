@@ -23,7 +23,7 @@
     }
     .float1{
       opacity: 0;
-      animation-delay: 1s;
+      animation-delay: 10s;
       animation: float 2s linear infinite;
     }
     .float2{
