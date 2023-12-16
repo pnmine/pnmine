@@ -39,12 +39,12 @@
     .float4{
       opacity: 0;
       animation-delay: 17ms;
-      animation: float 5s linear infinite;
+      animation: float 3s linear infinite;
     }
     .float5{
       opacity: 0;
       animation-delay: 19ms;
-      animation: float 6s linear infinite;
+      animation: float 2s linear infinite;
     }
     
     @keyframes trans {
