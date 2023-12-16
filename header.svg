@@ -20,21 +20,24 @@
       opacity: 0;
       animation-delay: 1s;
     }
+    .float{
+      animation: float 10s cubic-bezier(0.75, 0, 0.25, 1) linear infinite;
+    }
     @keyframes trans {
       0% {
         transform: translateX(0) translateY(0) scale(0);
       }
     
       33% {
-        transform: translateX(40vw) translateY(10vh) scale(1.1);
+        transform: translateX(40px) translateY(10px) scale(1.1);
       }
     
       67% {
-        transform: translateX(70vw) translateY(10vh) scale(0.9);
+        transform: translateX(70px) translateY(10px) scale(0.9);
       }
     
       100% {
-        transform: translateX(120vw) translateY(80vh);
+        transform: translateX(120px) translateY(80px);
       }
     }
     
@@ -49,6 +52,16 @@
         transform: translateX(150px) translateY(100px);
       }
     }
+    @keyframes float {
+    0% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  }
 
     .line{
       border: 1px solid red;
@@ -113,6 +126,26 @@
     <circle cx="173" cy="195" r="16" fill="white" fill-opacity="0.05" />
     <circle cx="173" cy="195" r="15.5" stroke="white" stroke-opacity="0.2"/>
   </g>
+  <g filter="url(#filter4_b_3_4)">
+  <circle cx="411.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
+  <circle cx="411.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
+  </g>
+  <g filter="url(#filter5_b_3_4)">
+  <circle cx="430.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
+  <circle cx="430.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
+  </g>
+  <g filter="url(#filter6_b_3_4)">
+  <circle cx="448.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
+  <circle cx="448.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
+  </g>
+  <g filter="url(#filter7_b_3_4)">
+  <circle cx="465.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
+  <circle cx="465.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
+  </g>
+  <g filter="url(#filter8_b_3_4)">
+  <circle cx="484.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
+  <circle cx="484.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
+  </g>
     
   <defs>
     <filter id="filter0_d_3_4" x="272.92" y="23.768" width="349.898" height="93.728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -144,6 +177,36 @@
     <filter id="filter3_b_3_4" x="153" y="175" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feGaussianBlur in="BackgroundImageFix" stdDeviation="5"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
+    </filter>
+    <filter id="filter4_b_3_4" x="402" y="263" width="19" height="19" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
+    </filter>
+    <filter id="filter5_b_3_4" x="421" y="263" width="19" height="19" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
+    </filter>
+    <filter id="filter6_b_3_4" x="439" y="263" width="19" height="19" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
+    </filter>
+      <filter id="filter7_b_3_4" x="456" y="263" width="19" height="19" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
+    </filter>
+      <filter id="filter8_b_3_4" x="475" y="263" width="19" height="19" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
       <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_4"/>
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3_4" result="shape"/>
     </filter>
