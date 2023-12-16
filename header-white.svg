@@ -106,7 +106,7 @@
         transform: translateX(20px) translateY(1000px);
       }
       100% {
-        transform: translateX(20px) translateY(1000px);
+        transform: translateX(0px) translateY(10px);
         transform: scale(2);
         opacity: 0.8;
       }
