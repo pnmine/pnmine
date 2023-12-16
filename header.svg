@@ -1,6 +1,7 @@
 <svg width="896" height="288" viewBox="0 0 896 288" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     * {
+      transition: all 0.25s ease-in-out;
       transform-origin: center;
       transform-box: fill-box;
     }
@@ -20,7 +21,24 @@
       opacity: 0;
       animation-delay: 1s;
     }
-    .float{
+    .float1{
+      animation-delay: 1s;
+      animation: float 2s linear infinite;
+    }
+    .float2{
+      animation-delay: 1.2s;
+      animation: float 2s linear infinite;
+    }
+    .float3{
+      animation-delay: 1.5s;
+      animation: float 2s linear infinite;
+    }
+    .float4{
+      animation-delay: 1.7s;
+      animation: float 2s linear infinite;
+    }
+    .float2{
+      animation-delay: 1.9s;
       animation: float 2s linear infinite;
     }
     
@@ -60,7 +78,7 @@
     }
     100% {
       opacity: 0;
-      transform: translateY(-100px);
+      transform: translateY(-100px) scale(1.5);
     }
   }
 
@@ -128,23 +146,23 @@
     <circle cx="173" cy="195" r="15.5" stroke="white" stroke-opacity="0.2"/>
   </g>
   
-  <g class="float" filter="url(#filter4_b_3_4)">
+  <g class="float1" filter="url(#filter4_b_3_4)">
   <circle cx="411.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
   <circle cx="411.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
   </g>
-  <g filter="url(#filter5_b_3_4)">
+  <g class="float2" filter="url(#filter5_b_3_4)">
   <circle cx="430.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
   <circle cx="430.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
   </g>
-  <g filter="url(#filter6_b_3_4)">
+  <g class="float3" filter="url(#filter6_b_3_4)">
   <circle cx="448.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
   <circle cx="448.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
   </g>
-  <g filter="url(#filter7_b_3_4)">
+  <g class="float4" filter="url(#filter7_b_3_4)">
   <circle cx="465.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
   <circle cx="465.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
   </g>
-  <g filter="url(#filter8_b_3_4)">
+  <g class="float5" filter="url(#filter8_b_3_4)">
   <circle cx="484.5" cy="272.5" r="5.5" fill="white" fill-opacity="0.05"/>
   <circle cx="484.5" cy="272.5" r="5" stroke="white" stroke-opacity="0.2"/>
   </g>
